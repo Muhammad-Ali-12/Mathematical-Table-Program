@@ -18,10 +18,10 @@
 3. The file should run and it should ask you to input a number.
 </p>
 
-<h3How the algorithm works</h3>
-<em>for i in range(num, num*tms+1, num):
+<h3>How the algorithm works</h3>
+<pre>for i in range(num, num*tms+1, num):
             print(str(num)+"x"+str(int(i/num))+"="+str(i))
-            time.sleep(1)</em>
+            time.sleep(1)</pre>
 <p>If you have worked with loops before this should be pretty simple. Here's how the table algorithm works:
 First we create a for loop that has 3 arguments. The number as a starting index. The number multiplied by the times variable added by 1 because computers always start at 0 and lastly a the number as a step so we add the number each time we iterate. Now we just have to print the output. First we print the number followed by "x". Then we divide the index with the number and add it to our string. Lastly we just print out the iteration from the loop. For example, lets say we have entered the number 5 and the times variable is set to 10. So the for loop will look kind of like this: <br>
 <em>for i in range(5,51,5):</em>
