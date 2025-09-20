@@ -18,5 +18,5 @@
   <h4>Facts about the Program</h4>
   <ul>
     <li>The program is fully exception proof, that means even if you give the wrong input it won't crash.
-    <li>The program can show the table of litteraly any number followed by any number for the times variable.
+    <li>The program can show the table of any number followed by any number for the times variable.
   </ul>
